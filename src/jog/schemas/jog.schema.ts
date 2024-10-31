@@ -28,3 +28,12 @@ export class Jog {
 }
 
 export const JogSchema = SchemaFactory.createForClass(Jog);
+
+export type WeeklyReport = {
+    from: Date;
+    to: Date;
+    totalDistance: number;
+    totalTime: number;
+    avgSpeed: number;
+    avgTime: number;
+}

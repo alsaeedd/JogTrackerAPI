@@ -34,9 +34,10 @@ export class JogController {
     @UseGuards(AuthGuard())
     async getJog(
         @Param('id')
-        id: string
+        id: string,
+        @Req() req,
     ): Promise<Jog> {
-        return this.jogService.findById(id);
+        return this.jogService.findById(id, req.user);
     }
 
     @Put(':id')
