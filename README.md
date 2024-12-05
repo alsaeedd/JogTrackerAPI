@@ -1,3 +1,7 @@
+# Jog Tracker Backend 🏃‍♂️
+This is a small jog tracker project with CRUD features and more that was used to experiment with backend practices and patterns using the Nest JS framework.
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
